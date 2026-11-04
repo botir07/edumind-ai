@@ -19,5 +19,13 @@
 - HTTPS/Secure cookie enforcement requires TLS termination (Nginx); `COOKIE_SECURE=false` in local dev.
 - No AI functionality is implemented; no student data is sent to any external AI service.
 
+## AI Core (Phase 2)
+- PostgreSQL + pgvector production vector store not validated locally (no live PostgreSQL; provider-agnostic interface ready, PgVectorStore adapter unwired until extension confirmed).
+- Docker Compose runtime not validated locally (Docker not installed in this environment).
+- No real AI Model Provider connected (by design; interfaces + test doubles only).
+- Playwright E2E configured but browser binaries not installed locally (`pnpm test:ui` deferred).
+- PostgreSQL/Redis integration tests skipped locally (MemoryCacheProvider + SQLite used instead); documented in AI_CORE_TESTING.md.
+- OpenTelemetry collector integration deferred (lightweight structured-log TraceExporter implemented).
+
 ## AI
-None implemented (Phase 1 boundary). Future AI Core isolated under `backend/app/ai_core/`.
+None implemented as a trained neural network (Phase 1 & 2 boundary). AI Core is infrastructure only; language model connects later via a Model Provider Adapter (Phase 3, requires explicit authorization).
