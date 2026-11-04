@@ -12,6 +12,12 @@ from app.api.v1.routers.materials import router as materials_router
 from app.api.v1.routers.notifications import router as notifications_router
 from app.api.v1.routers.analytics import router as analytics_router
 from app.ai_core.api import router as ai_core_router
+from app.modules.ai_tutor import router as ai_tutor_router
+from app.modules.ai_knowledge_map import router as ai_knowledge_map_router
+from app.modules.ai_error_analysis import router as ai_error_analysis_router
+from app.modules.ai_adaptive_learning import router as ai_adaptive_learning_router
+from app.modules.ai_analytics import router as ai_analytics_router
+from app.modules.ai_learning_paths import router as ai_learning_paths_router
 from app.api.v1.routers.parents import router as parents_router
 from app.api.v1.routers.students import router as students_router
 from app.api.v1.routers.teachers import router as teachers_router
@@ -32,5 +38,11 @@ api_router.include_router(materials_router)
 api_router.include_router(notifications_router)
 api_router.include_router(analytics_router)
 api_router.include_router(ai_core_router)
+api_router.include_router(ai_tutor_router)
+api_router.include_router(ai_knowledge_map_router)
+api_router.include_router(ai_error_analysis_router)
+api_router.include_router(ai_adaptive_learning_router)
+api_router.include_router(ai_learning_paths_router)
+api_router.include_router(ai_analytics_router)
 
 __all__ = ["api_router"]

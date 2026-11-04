@@ -16,6 +16,16 @@ class TraceSpan:
         self.attrs: dict[str, Any] = {}
         ctx.spans.append(self.to_dict())
 
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        if exc_val is not None:
+            self.finish(status="error", error=str(exc_val))
+        else:
+            self.finish(status="ok")
+        return False
+
     def set_attr(self, key: str, value: Any) -> None:
         self.attrs[key] = value
 
