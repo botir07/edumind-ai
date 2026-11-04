@@ -31,6 +31,20 @@ from app.models.attendance_record import AttendanceRecord  # noqa: F401
 from app.models.learning_material import LearningMaterial  # noqa: F401
 from app.models.notification import Notification  # noqa: F401
 from app.models.notification_preference import NotificationPreference  # noqa: F401
+from app.ai_core.models.tables import (  # noqa: F401
+    AIPromptTemplate,
+    AIPromptVersion,
+    AIDocument,
+    AIDocumentChunk,
+    AIEmbeddingMetadata,
+    AIRetrievalLog,
+    AIToolRegistry,
+    AIToolExecutionLog,
+    AIAccessPolicy,
+    AISecurityEvent,
+    AICacheMetadata,
+    AITraceMetadata,
+)
 
 __all__ = [
     "Organization",
@@ -64,4 +78,16 @@ __all__ = [
     "LearningMaterial",
     "Notification",
     "NotificationPreference",
+    "AIPromptTemplate",
+    "AIPromptVersion",
+    "AIDocument",
+    "AIDocumentChunk",
+    "AIEmbeddingMetadata",
+    "AIRetrievalLog",
+    "AIToolRegistry",
+    "AIToolExecutionLog",
+    "AIAccessPolicy",
+    "AISecurityEvent",
+    "AICacheMetadata",
+    "AITraceMetadata",
 ]
