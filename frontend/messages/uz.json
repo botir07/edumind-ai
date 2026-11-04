@@ -1,0 +1,190 @@
+{
+  "common": {
+    "appName": "EduMind AI",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "create": "Yaratish",
+    "search": "Qidirish",
+    "filter": "Filtrlash",
+    "refresh": "Yangilash",
+    "back": "Orqaga",
+    "next": "Keyingisi",
+    "previous": "Oldingi",
+    "home": "Bosh sahifa",
+    "logout": "Chiqish",
+    "profile": "Profil",
+    "language": "Til",
+    "english": "Ingliz tili",
+    "russian": "Русский язык",
+    "uzbek": "Oʻzbek tili",
+    "loading": "Yuklanmoqda...",
+    "noData": "Ma'lumot mavjud emas",
+    "error": "Xatolik",
+    "success": "Muvaffaqiyatli",
+    "confirm": "Tasdiqlash",
+    "actions": "Amallar",
+    "students": "Talabalar",
+    "teachers": "O'qituvchilar",
+    "parents": "Vali-lar",
+    "schools": "Maktablar",
+    "settings": "Sozlamalar"
+  },
+  "auth": {
+    "login": "Kirish",
+    "welcomeBack": "Xush kelibsiz qayta",
+    "email": "Elektron pochta",
+    "password": "Parol",
+    "forgotPassword": "Parolni unutdingizmi?",
+    "resetPassword": "Parolni tiklash",
+    "changePassword": "Parolni o'zgartirish",
+    "currentPassword": "Joriy parol",
+    "newPassword": "Yangi parol",
+    "confirmPassword": "Parolni tasdiqlang",
+    "loginSuccess": "Muvaffaqiyatli kirdingiz",
+    "invalidCredentials": "Noto'g'ri elektron pochta yoki parol",
+    "logout": "Chiqish",
+    "sessionExpired": "Sessiya tugadi, iltimos qaytadan kiring",
+    "accessDenied": "Kirish rad etildi",
+    "roleRequired": "Sizda bu amalni bajarishga ruxsat yo'q"
+  },
+  "nav": {
+    "dashboard": "Boshqaruv paneli",
+    "students": "Talabalar",
+    "teachers": "O'qituvchilar",
+    "parents": "Valilar",
+    "academic": "Academik",
+    "gradebook": "Baholar jadvali",
+    "homework": "Uy vazifasi",
+    "timetable": "Dars jadvali",
+    "attendance": "Davomat",
+    "materials": "Darslik materiallar",
+    "analytics": "Tahlil",
+    "schools": "Maktablar",
+    "users": "Foydalanuvchilar",
+    "notifications": "Bildirishnomalar"
+  },
+  "dashboard": {
+    "welcome": "Xush kelibsiz, {name}",
+    "todayLessons": "Bugungi darslar",
+    "upcomingAssignments": "Kuchayotgan vazifalar",
+    "recentGrades": "Oxirgi baholar",
+    "attendance": "Davomat",
+    "subjectStatistics": "Fan bo'yicha statistika",
+    "notifications": "Bildirishnomalar",
+    "personalProgress": "Shaxsiy akademik yurtidik"
+  },
+  "students": {
+    "title": "Talabalar",
+    "addStudent": "Talaba qo'shish",
+    "studentNumber": "Talaba raqami",
+    "fullName": "Ism familiya",
+    "dateOfBirth": "Tug'ilgan sana",
+    "gender": "Jins",
+    "status": "Holat",
+    "class": "Sinf",
+    "active": "Faol",
+    "inactive": "Faol emas",
+    "searchPlaceholder": "Talabalar bo'yicha qidirish..."
+  },
+  "teachers": {
+    "title": "O'qituvchilar",
+    "addTeacher": "O'qituvchi qo'shish",
+    "employeeNumber": "Ishchi raqami",
+    "specialization": "Mutaxassislik",
+    "hireDate": "Ishga qabul sana"
+  },
+  "parents": {
+    "title": "Valilar",
+    "addParent": "Vali qo'shish",
+    "children": "Bolalar",
+    "guardian": "Veli"
+  },
+  "gradebook": {
+    "title": "Baholar jadvali",
+    "assessments": "Baholashlar",
+    "grades": "Baholar",
+    "createAssessment": "Baholash yaratish",
+    "title": "Sarlavha",
+    "category": "Kategoriya",
+    "maxScore": "Maksimal ball",
+    "weight": "Og'irlik",
+    "score": "Ball",
+    "comment": "Izoh",
+    "enterGrade": "Ballni kiriting",
+    "scoreCannotExceed": "Ball maksimal balldan oshmasligi kerak",
+    "gradeSaved": "Baha saqlandi",
+    "student": "Talaba",
+    "assessment": "Baholash"
+  },
+  "homework": {
+    "title": "Uy vazifasi",
+    "assignments": "Vazifalar",
+    "createAssignment": "Vazifa yaratish",
+    "submissions": "Joy etilganlar",
+    "deadline": "Cheklov vaqti",
+    "submit": "Yuborish",
+    "feedback": "Fikr mulohaza",
+    "grade": "Baha",
+    "status": "Holat"
+  },
+  "timetable": {
+    "title": "Dars jadvali",
+    "lessons": "Darslar",
+    "addLesson": "Dars qo'shish",
+    "room": "Xona",
+    "day": "Kun",
+    "time": "Vaqt",
+    "cancel": "Darsni bekor qilish"
+  },
+  "attendance": {
+    "title": "Davomat",
+    "markAttendance": "Davomatni belgilash",
+    "present": "Davomat etgan",
+    "absent": "Kelmagan",
+    "late": "Kechgan",
+    "excused": "Ruxsat berilgan",
+    "history": "Tarix"
+  },
+  "materials": {
+    "title": "Darslik materiallar",
+    "upload": "Material yuklash",
+    "type": "Turi",
+    "language": "Til",
+    "published": "Nashr etilgan",
+    "download": "Yuklab olish"
+  },
+  "analytics": {
+    "title": "Tahlil",
+    "averageScore": "O'rtacha ball",
+    "attendanceRate": "Davomat foizi",
+    "completionRate": "Bajarilish foizi",
+    "studentsCount": "Talabalar",
+    "teachersCount": "O'qituvchilar",
+    "classesCount": "Sinflar"
+  },
+  "schools": {
+    "title": "Maktablar",
+    "addSchool": "Maktab qo'shish",
+    "schoolName": "Maktab nomi",
+    "code": "Kod",
+    "isActive": "Faol"
+  },
+  "notifications": {
+    "title": "Bildirishnomalar",
+    "markAsRead": "O'qilgan deb belgilash",
+    "noNotifications": "Bildirishnoma yo'q"
+  },
+  "settings": {
+    "title": "Sozlamalar",
+    "profile": "Profil",
+    "languagePreference": "Til tanlovi"
+  },
+  "validation": {
+    "required": "Maydonni to'ldirish shart",
+    "invalidEmail": "Noto'g'ri elektron pochta",
+    "minLength": "Kamida {min} belgi",
+    "passwordMismatch": "Parollar mos kelmadi"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "common": {
+    "appName": "EduMind AI",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "create": "Создать",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "refresh": "Обновить",
+    "back": "Назад",
+    "next": "Далее",
+    "previous": "Назад",
+    "home": "Главная",
+    "logout": "Выйти",
+    "profile": "Профиль",
+    "language": "Язык",
+    "english": "Английский",
+    "russian": "Русский",
+    "uzbek": "Ўзбекча",
+    "loading": "Загрузка...",
+    "noData": "Нет данных",
+    "error": "Ошибка",
+    "success": "Успешно",
+    "confirm": "Подтвердить",
+    "actions": "Действия",
+    "students": "Ученики",
+    "teachers": "Учителя",
+    "parents": "Родители",
+    "schools": "Школы",
+    "settings": "Настройки"
+  },
+  "auth": {
+    "login": "Вход",
+    "welcomeBack": "С возвращением",
+    "email": "Электронная почта",
+    "password": "Пароль",
+    "forgotPassword": "Забыли пароль?",
+    "resetPassword": "Сброс пароля",
+    "changePassword": "Сменить пароль",
+    "currentPassword": "Текущий пароль",
+    "newPassword": "Новый пароль",
+    "confirmPassword": "Подтвердите пароль",
+    "loginSuccess": "Успешный вход",
+    "invalidCredentials": "Неверный email или пароль",
+    "logout": "Выйти",
+    "sessionExpired": "Сессия истекла, войдите снова",
+    "accessDenied": "Доступ запрещён",
+    "roleRequired": "У вас нет прав на это действие"
+  },
+  "nav": {
+    "dashboard": "Панель",
+    "students": "Ученики",
+    "teachers": "Учителя",
+    "parents": "Родители",
+    "academic": "Учебный",
+    "gradebook": "Журнал оценок",
+    "homework": "Домашнее задание",
+    "timetable": "Расписание",
+    "attendance": "Посещаемость",
+    "materials": "Материалы",
+    "analytics": "Аналитика",
+    "schools": "Школы",
+    "users": "Пользователи",
+    "notifications": "Уведомления"
+  },
+  "dashboard": {
+    "welcome": "Добро пожаловать, {name}",
+    "todayLessons": "Уроки сегодня",
+    "upcomingAssignments": "Предстоящие задания",
+    "recentGrades": "Последние оценки",
+    "attendance": "Посещаемость",
+    "subjectStatistics": "Статистика по предметам",
+    "notifications": "Уведомления",
+    "personalProgress": "Личный прогресс"
+  },
+  "students": {
+    "title": "Ученики",
+    "addStudent": "Добавить ученика",
+    "studentNumber": "Номер ученика",
+    "fullName": "Полное имя",
+    "dateOfBirth": "Дата рождения",
+    "gender": "Пол",
+    "status": "Статус",
+    "class": "Класс",
+    "active": "Активен",
+    "inactive": "Неактивен",
+    "searchPlaceholder": "Поиск учеников..."
+  },
+  "teachers": {
+    "title": "Учителя",
+    "addTeacher": "Добавить учителя",
+    "employeeNumber": "Табельный номер",
+    "specialization": "Специализация",
+    "hireDate": "Дата приема на работу"
+  },
+  "parents": {
+    "title": "Родители",
+    "addParent": "Добавить родителя",
+    "children": "Дети",
+    "guardian": "Опекун"
+  },
+  "gradebook": {
+    "title": "Журнал оценок",
+    "assessments": "Оценки",
+    "grades": "Оценки",
+    "createAssessment": "Создать оценку",
+    "title": "Название",
+    "category": "Категория",
+    "maxScore": "Максимальный балл",
+    "weight": "Вес",
+    "score": "Балл",
+    "comment": "Комментарий",
+    "enterGrade": "Введите оценку",
+    "scoreCannotExceed": "Оценка не может превышать максимум",
+    "gradeSaved": "Оценка сохранена",
+    "student": "Ученик",
+    "assessment": "Оценка"
+  },
+  "homework": {
+    "title": "Домашнее задание",
+    "assignments": "Задания",
+    "createAssignment": "Создать задание",
+    "submissions": "Решения",
+    "deadline": "Срок сдачи",
+    "submit": "Отправить",
+    "feedback": "Обратная связь",
+    "grade": "Оценка",
+    "status": "Статус"
+  },
+  "timetable": {
+    "title": "Расписание",
+    "lessons": "Уроки",
+    "addLesson": "Добавить урок",
+    "room": "Кабинет",
+    "day": "День",
+    "time": "Время",
+    "cancel": "Отменить урок"
+  },
+  "attendance": {
+    "title": "Посещаемость",
+    "markAttendance": "Отметить посещаемость",
+    "present": "Присутствует",
+    "absent": "Отсутствует",
+    "late": "Опоздал",
+    "excused": "Уважительная причина",
+    "history": "История"
+  },
+  "materials": {
+    "title": "Учебные материалы",
+    "upload": "Загрузить материал",
+    "type": "Тип",
+    "language": "Язык",
+    "published": "Опубликовано",
+    "download": "Скачать"
+  },
+  "analytics": {
+    "title": "Аналитика",
+    "averageScore": "Средний балл",
+    "attendanceRate": "Процент посещаемости",
+    "completionRate": "Процент выполнения",
+    "studentsCount": "Учеников",
+    "teachersCount": "Учителей",
+    "classesCount": "Классов"
+  },
+  "schools": {
+    "title": "Школы",
+    "addSchool": "Добавить школу",
+    "schoolName": "Название школы",
+    "code": "Код",
+    "isActive": "Активно"
+  },
+  "notifications": {
+    "title": "Уведомления",
+    "markAsRead": "Отметить прочитанным",
+    "noNotifications": "Нет уведомлений"
+  },
+  "settings": {
+    "title": "Настройки",
+    "profile": "Профиль",
+    "languagePreference": "Предпочитаемый язык"
+  },
+  "validation": {
+    "required": "Поле обязательно",
+    "invalidEmail": "Неверный email",
+    "minLength": "Минимум {min} символов",
+    "passwordMismatch": "Пароли не совпадают"
+  }
+}
